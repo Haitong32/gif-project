@@ -1,0 +1,136 @@
+body {
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-color: pink;
+  color: red;
+  font-size: 100px;
+  font-weight: bold;
+}
+p {
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+}
+.img1 {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+}
+.img2 {
+  position: absolute;;
+  z-index: -2;
+  width: 300px
+}
+.img3 {
+  position: absolute;;
+  z-index: -3;
+  width: 300px;
+  }
+.img4 {
+    position: absolute;;
+    z-index: -4;
+    width: 300px;
+  }
+.img5 {
+      position: absolute;;
+      z-index: -5;
+      width: 300px;
+    }
+.img6 {
+        position: absolute;;
+        z-index: -6;
+        width: 300px;
+      }
+.img7 {
+          position: absolute;;
+          z-index: -7;
+          width: 300px;
+        }
+.img8 {
+            position: absolute;;
+            z-index: -8;
+            width: 300px;
+          }
+.img9 {
+                      position: absolute;;
+                      z-index: -9;
+                      width: 300px;
+                    }
+                    .img10 {
+                                position: absolute;;
+                                z-index: -10;
+                                width: 300px;
+                              }
+                  .img11 {
+                                          position: absolute;;
+                                          z-index: -11;
+                                          width: 300px;
+  }
+  .img12{
+    position: absolute;;
+    z-index: -12;
+    width: 300px;
+  }
+  .img13{
+    position: absolute;;
+    z-index: -13;
+    width: 300px;
+  }
+.img14{
+  position: absolute;;
+  z-index: -14;
+  width: 300px;
+}
+.img15{
+  position: absolute;;
+  z-index: -15;
+  width: 300px;
+}
+.morty {
+      position: absolute;;
+      z-index: -16;
+      width: 80px;
+      /*border: 1px solid yellow;*/
+      /*padding: 5px;*/
+      box-shadow: 0 0 20px #555;
+      -webkit-transition: all .2s ease-in;
+      transition: all .2s ease-in;
+                    }
+
+                    .morty:hover {
+                      background: white;
+                      box-shadow: 0 0 20px yellow;
+                    }
+
+
+                    .morty:active {
+                      box-shadow: 0 0 20px yellow;
+                      background: yellow;
+                    }
+
+.new_pos {
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+  background: blue;
+  border: 1px solid yellow;
+  padding: 5px;
+  box-shadow: 0 0 20px #555;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.new_pos:hover {
+  background: white;
+  box-shadow: 0 0 20px yellow;
+}
+
+
+.new_pos:active {
+  box-shadow: 0 0 20px yellow;
+  background: yellow;
+}
+
+*:focus {
+  outline: none;
+}
